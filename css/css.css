@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+
+body{
+    background: grey;
+
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.t_p{
+    /*background: orange;*/
+    /*padding: 30px 0 0 0 ;*/
+    font-size: 0;
+}
+.in_t{
+    background: aqua;
+    width: 300px;
+    outline: 2px solid black;
+    display: inline-block;
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    font-size: 0px;
+}
+.in_a{
+    width: 66%;
+    outline: 2px solid green;
+    font-size: 20px;
+    background: red;
+}
+.in_b{
+    width: 34%;
+    outline: 2px solid green;
+    font-size: 20px;
+    background: orange;
+}
+.in_c{
+    outline: 2px solid black;
+}
+.in_d{
+    outline: 2px solid black;
+}
+
+.in_e{
+    outline: 2px solid black;
+}
+.in_f{
+    outline: 2px solid black;
+}
+
+.second{
+    display: flex;
+}
+.in_1{
+    outline: 2px solid lime;
+    background: aquamarine;
+    width: 50%;
+    height: 180px;
+}
+.in_2{
+    outline: 2px solid black;
+    background: aquamarine;
+}
